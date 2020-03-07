@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sem.ramazanprojesi.OyunSonuEkrani"
+    android:orientation="vertical"
+    android:background="@drawable/shanks">
+
+    <TextView
+        android:layout_marginTop="100dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GAME OVER"
+        android:textColor="#dfa907"
+        android:textSize="40dp"
+        android:textStyle="bold|italic"
+        android:fontFamily="@font/assasins"/>
+
+
+    <LinearLayout
+        android:layout_marginTop="120dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Skor :"
+            android:textColor="#966a9f"
+            android:textSize="30dp"
+            android:textStyle="bold|italic"
+            android:fontFamily="@font/regular"/>
+        <TextView
+            android:id="@+id/txSkor"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="skor"
+            android:textColor="#ffcc00"
+            android:textSize="35dp"
+            android:textStyle="bold|italic"
+            android:fontFamily="@font/regular"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnBastanBasla"
+        android:layout_width="183dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/gecislirenkk"
+        android:fontFamily="@font/regular"
+        android:gravity="center"
+        android:text="Baştan Başla"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/btnCikis"
+        android:layout_width="181dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/gecislirenkk"
+        android:fontFamily="@font/regular"
+        android:gravity="center"
+        android:text="Çıkış"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:textStyle="bold|italic" />
+
+</LinearLayout>
