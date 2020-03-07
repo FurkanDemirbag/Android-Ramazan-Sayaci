@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.sem.ramazanprojesi.Main2Activity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#000"
+        android:padding="5dp">
+
+
+        <EditText
+            android:id="@+id/editArama"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/aramayeri"
+            android:backgroundTint="#ffff"
+            android:drawableLeft="@drawable/search1"
+            android:gravity="center"
+            android:hint="Şehir Ara"
+            android:paddingLeft="10dp"
+            android:textColor="#e9a69b"
+            android:textSize="20dp"
+            android:textStyle="bold|italic">
+        </EditText>
+
+
+    </LinearLayout>
+
+
+    <ListView
+        android:id="@+id/liste"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        />
+
+</LinearLayout>
