@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sem.ramazanprojesi.oyunGirisEkrani"
+    android:orientation="vertical"
+    android:background="@drawable/zoro">
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:text="KURALLAR"
+        android:textSize="30dp"
+        android:textStyle="bold|italic"
+        android:textColor="#ae3b3b"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/assasins"/>
+
+    <TextView
+        android:text="# Turuncu Meteorlar 10 Puan Kazandırır."
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="20dp"
+        android:textStyle="bold|italic"
+        android:textColor="#00ff71"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/regular"/>
+
+    <TextView
+        android:text="# Her 50 puanda 1 level artacaktır. "
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="20dp"
+        android:textStyle="bold|italic"
+        android:textColor="#00ff71"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/regular"/>
+
+
+    <TextView
+        android:layout_width="324dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="20dp"
+        android:text="# Işıklı ve Ateşli Meteor 1 Can götürür , Level ilerledikçe gelen meteor artacaktır
+Ancak gelen meteorlardan sadece biri can götürecektir, İşler zorlaştığında şansınıza güvenin :)"
+        android:textColor="#00ff71"
+        android:textSize="20dp"
+        android:textStyle="bold|italic"
+        android:fontFamily="@font/regular"/>
+
+    <TextView
+        android:text="# Toplam 3 Canınız vardır , Canlarınız biterse oyun da biter. "
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="40dp"
+        android:textSize="20dp"
+        android:textStyle="bold|italic"
+        android:textColor="#00ff71"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/regular"/>
+
+    <Button
+        android:id="@+id/btnOyunaBasla"
+        android:layout_width="208dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/gecislirenkk"
+        android:fontFamily="@font/regular"
+        android:text="OYUNA BAŞLA"
+        android:textColor="#b69c36"
+        android:textSize="25dp"
+        android:textStyle="bold|italic" />
+
+</LinearLayout>
