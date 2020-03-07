@@ -1,0 +1,184 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    android:orientation="vertical"
+    tools:context="com.example.sem.ramazanprojesi.muzikActivity">
+
+
+        <ImageView
+            android:clickable="true"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:id="@+id/geriDon"
+            android:layout_margin="20dp"
+            android:src="@drawable/batman1"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Beethoven - 9. Senfonisi"
+            android:layout_gravity="center"
+            android:textStyle="bold|italic"
+            android:textColor="#fff"
+            android:textSize="20dp"/>
+
+        <ImageView
+            android:clickable="true"
+            android:layout_marginLeft="13dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/bethovenMuzikBaslat"
+            android:src="@drawable/play"/>
+        <ImageView
+            android:clickable="true"
+            android:layout_marginLeft="10dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/bethovenMuzikDurdur"
+            android:src="@drawable/pause"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mozart - 13. Senfonisi"
+            android:layout_gravity="center"
+            android:textStyle="bold|italic"
+            android:textColor="#fff"
+            android:textSize="20dp"/>
+
+        <ImageView
+            android:clickable="true"
+            android:layout_marginLeft="32dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/mozartMuzikBaslat"
+            android:src="@drawable/play"/>
+        <ImageView
+            android:clickable="true"
+            android:layout_marginLeft="10dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/mozartMuzikDurdur"
+            android:src="@drawable/pause"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="The Hunt Soundtrack"
+            android:layout_gravity="center"
+            android:textStyle="bold|italic"
+            android:textColor="#fff"
+            android:textSize="20dp"/>
+
+        <ImageView
+            android:clickable="true"
+            android:layout_marginLeft="40dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/thehuntMuzikBaslat"
+            android:src="@drawable/play"/>
+        <ImageView
+            android:clickable="true"
+            android:layout_marginLeft="10dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/thehuntMuzikDurdur"
+            android:src="@drawable/pause"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fairy Tail Soundtrack"
+            android:layout_gravity="center"
+            android:textStyle="bold|italic"
+            android:textColor="#fff"
+            android:textSize="20dp"/>
+
+        <ImageView
+            android:clickable="true"
+            android:layout_marginLeft="42dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/fairytailMuzikBaslat"
+            android:src="@drawable/play"/>
+        <ImageView
+            android:clickable="true"
+            android:layout_marginLeft="10dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/fairytailMuzikDurdur"
+            android:src="@drawable/pause"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="One Piece Soundtrack"
+            android:layout_gravity="center"
+            android:textStyle="bold|italic"
+            android:textColor="#fff"
+            android:textSize="20dp"/>
+
+        <ImageView
+            android:clickable="true"
+            android:layout_marginLeft="30dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/onepieceMuzikBaslat"
+            android:src="@drawable/play"/>
+        <ImageView
+            android:clickable="true"
+            android:layout_marginLeft="10dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/onepieceMuzikDurdur"
+            android:src="@drawable/pause"/>
+
+    </LinearLayout>
+
+    </LinearLayout>
