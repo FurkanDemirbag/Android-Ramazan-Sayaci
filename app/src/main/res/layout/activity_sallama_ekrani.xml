@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sem.ramazanprojesi.SallamaEkrani"
+    android:orientation="vertical"
+    android:background="#000" >
+
+    <ImageView
+        android:clickable="true"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/geriDonus"
+        android:layout_margin="20dp"
+        android:src="@drawable/batman1"/>
+
+    <Button
+        android:id="@+id/btnOzellikleriGetir"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/gecislirenkk"
+        android:fontFamily="@font/regular"
+        android:gravity="center"
+        android:text="Şansını Dene"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:visibility="invisible"
+        android:id="@+id/tx1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/regular"
+        android:text="ugurlu eşya kısmı"
+        android:textSize="25dp"
+        android:textStyle="bold|italic"
+        android:textColor="#e9a69b"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="40dp"/>
+    <TextView
+        android:visibility="invisible"
+        android:id="@+id/tx2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/regular"
+        android:text="evlenme kısmı"
+        android:textSize="25dp"
+        android:textStyle="bold|italic"
+        android:textColor="#e9a69b"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="40dp"/>
+    <TextView
+        android:visibility="invisible"
+        android:id="@+id/tx3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/regular"
+        android:text="zengin olma kısmı"
+        android:textSize="25dp"
+        android:textStyle="bold|italic"
+        android:textColor="#e9a69b"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="40dp"/>
+
+    <TextView
+        android:visibility="invisible"
+        android:id="@+id/tx4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/regular"
+        android:text="ölüm kısmı"
+        android:textSize="25dp"
+        android:textStyle="bold|italic"
+        android:textColor="#e9a69b"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="40dp"/>
+
+
+</LinearLayout>
